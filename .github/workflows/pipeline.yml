@@ -1,0 +1,14 @@
+name: Pass unit Test
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Install dependencies
+        run: echo "Installing dependencies"
+      
