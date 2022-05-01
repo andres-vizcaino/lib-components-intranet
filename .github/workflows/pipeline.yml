@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  hello_world:
+  deplay_test:
     runs-on: ubuntu-18.04
     steps:
       - name: Copy files to VM
@@ -19,6 +19,8 @@ jobs:
           node-version: "16"
       - name: Install dependencies
         run: npm install
+      - name: Run linter
+        run: npm run lint
       - name: Run unit tests
         run: npm test
       
