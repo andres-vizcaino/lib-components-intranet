@@ -1,7 +1,7 @@
 {
   "name": "@andres-vizcaino/lib-components-intranet",
   "version": "0.0.2",
-  "description": "Libreria de componentes basado en react",
+  "description": "Libreria de componentes basado en react para la intranet igloolab",
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
