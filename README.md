@@ -1,3 +1,5 @@
+[![Pass unit Test](https://github.com/andres-vizcaino/lib-components-intranet/actions/workflows/pipeline.yml/badge.svg?branch=main)](https://github.com/andres-vizcaino/lib-components-intranet/actions/workflows/pipeline.yml)
+
 # Project Title
 
 lib-components-intranet
